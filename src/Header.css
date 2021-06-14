@@ -9,6 +9,14 @@
     background-color: white;
 }
 
+.outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    width: 70%;
+}
+
 .header_logo {
     height: 25px;
     object-fit: contain;
@@ -22,6 +30,14 @@
     align-items: center;
     width: 40%;
     border: 1px solid gray;
+    /* border-right: 0; */
+}
+
+.header_input {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-right: 0;
 }
 
 .header_input>input {
@@ -39,6 +55,7 @@
     width: 50px !important;
     background-color: #fafafa;
     border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
     color: gray;
 }
 
@@ -52,4 +69,20 @@
 
 .header_input:focus-within {
     border-color: rgb(17, 0, 252);
+}
+
+
+/* 
+.header_mic {
+    display: flex;
+    justify-content: start;
+} */
+
+.header_mic_1 {
+    display: flex;
+    justify-content: start;
+}
+
+.header_mic_1>.header_mic {
+    flex-grow: 1;
 }

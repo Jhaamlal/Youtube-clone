@@ -8,6 +8,8 @@ import AppsOutlinedIcon from "@material-ui/icons/AppsOutlined";
 import NotificationsNoneOutlinedIcon from "@material-ui/icons/NotificationsNoneOutlined";
 import Avatar from "@material-ui/core/Avatar";
 
+import MicOutlinedIcon from "@material-ui/icons/MicOutlined";
+
 function Header() {
   const Focus = () => {};
   return (
@@ -19,15 +21,21 @@ function Header() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1280px-Logo_of_YouTube_%282015-2017%29.svg.png"
         />
       </div>
-      <div className="header_input">
-        <input
-          placeholder="Search"
-          type="text"
-          onFocus={Focus}
-          className="header_inputSearch"
-        />
-        <SearchOutlinedIcon className="header_inputButton" />
+      <div className="outer">
+        <div className="header_input">
+          <input
+            placeholder="Search"
+            type="text"
+            onFocus={Focus}
+            className="header_inputSearch"
+          />
+          <SearchOutlinedIcon className="header_inputButton" />
+        </div>
+        <div className="header_mic_1">
+          <MicOutlinedIcon className="header_mic" />
+        </div>
       </div>
+
       <div className="header_icons">
         <VideoCallIcon className="header_icon" />
         <AppsOutlinedIcon className="header_icon" />
