@@ -7,7 +7,6 @@ import ExploreOutlinedIcon from "@material-ui/icons/ExploreOutlined";
 import SubscriptionsOutlinedIcon from "@material-ui/icons/SubscriptionsOutlined";
 import VideoLibraryOutlinedIcon from "@material-ui/icons/VideoLibraryOutlined";
 import HistoryOutlinedIcon from "@material-ui/icons/HistoryOutlined";
-import AccessTimeOutlinedIcon from "@material-ui/icons/AccessTimeOutlined";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import WatchLaterIcon from "@material-ui/icons/WatchLater";
 import ThumbUpIcon from "@material-ui/icons/ThumbUp";
